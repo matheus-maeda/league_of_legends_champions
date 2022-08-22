@@ -5,6 +5,7 @@ export default ({champions}) => {
     
     
   let[getChosenChampion, setChosenChampion] = useState([]) 
+  let[getChampionInfo, setChampionInfo] = useState([])
   
   return (
     <div className='Container'>
@@ -15,9 +16,6 @@ export default ({champions}) => {
           <p>{element[0].name}</p>
          </div>
        )}
-      </div>
-      <div className="ChampionInfo">
-          {getChosenChampion.id != undefined ? <img src={'https://ddragon.leagueoflegends.com/cdn/img/champion/loading/' + getChosenChampion.id + '_0.jpg'} /> : <a />}
       </div>
     </div>
     

@@ -4,7 +4,7 @@ import Header from "./components/Header.jsx"
 export default () => {
 
   const [getChampions, setChampions] = useState([])
-
+  
   useEffect(() => {
         let champions = []
         fetch('https://ddragon.leagueoflegends.com/cdn/12.15.1/data/pt_BR/champion.json').then(response => response.json()).then(function(response) {
