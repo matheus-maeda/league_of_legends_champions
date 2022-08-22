@@ -1,4 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.Container {
+  display: flex;
+  height: 100%;
+}
+
+.ChampionInfo {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+
+.ChampionInfo img {
+  width: 30%;
+  height: 10%;
+}
+
+.ChampionRow {
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  overflow: auto;
+}
+
 .champion {
   display: flex;
   align-items: center;
+  flex-direction: column;
+}
+
+.champion img {
+  width: 80%;
+  transition: all ease 0.2s;
+}
+
+.champion img:hover {
+  transform: scale(1.2);
 }
