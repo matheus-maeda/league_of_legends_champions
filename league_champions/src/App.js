@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import ChampionRow from './components/ChampionRow.jsx'
-
+import Header from "./components/Header.jsx"
 export default () => {
 
   const [getChampions, setChampions] = useState([])
@@ -15,6 +15,7 @@ export default () => {
 
   return (
     <div className='App'>
+        <Header />
       <ChampionRow champions={getChampions} />
     </div>
   );

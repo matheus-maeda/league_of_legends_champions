@@ -1,4 +1,37 @@
+.Container {
+  display: flex;
+}
+
+.ChampionInfo {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+
+.ChampionInfo img {
+  width: 20%;
+  height: 10vh;
+}
+
+.ChampionRow {
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  overflow: auto;
+}
+
 .champion {
   display: flex;
   align-items: center;
+  flex-direction: column;
+}
+
+.champion img {
+  width: 80%;
+  transition: all ease 0.2s;
+}
+
+.champion img:hover {
+  transform: scale(1.2);
 }
