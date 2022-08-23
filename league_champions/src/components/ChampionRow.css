@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 1px solid black;
 }
 
 body {
@@ -17,13 +16,12 @@ body {
 
 .ChampionInfo {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
   width: 50%;
 }
 
 .ChampionInfo img {
   width: 30%;
-  height: 10%;
 }
 
 .ChampionRow {
@@ -43,8 +41,9 @@ body {
 .champion img {
   width: 80%;
   transition: all ease 0.2s;
+  cursor: pointer;
 }
 
 .champion img:hover {
-  transform: scale(1.2);
+  transform: scale(1.05);
 }
