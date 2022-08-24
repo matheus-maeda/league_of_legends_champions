@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import ChampionRow from './components/ChampionRow.jsx'
 import Header from "./components/Header.jsx"
+import './App.css'
 export default () => {
 
   const [getChampions, setChampions] = useState([])
@@ -16,8 +17,10 @@ export default () => {
 
   return (
     <div className='App'>
+      <div className='fullContainer'>
         <Header />
-      <ChampionRow champions={getChampions} />
+        <ChampionRow champions={getChampions} />
+      </div>
     </div>
   );
 }
