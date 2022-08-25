@@ -5,13 +5,16 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins";
-  border: 0.5px solid black;
 }
 
 html,
 body {
   height: 100%;
   width: 100%;
+}
+
+img {
+  box-shadow: 5px 5px 11px 2px rgba(0, 0, 0, 0.29);
 }
 
 .Container {
@@ -58,11 +61,8 @@ body {
   height: 60.51rem;
 }
 
-.ChampionName {
-  justify-content: flex-start;
-}
-
 .ChampionInfo p {
+  box-shadow: 5px 5px 11px -2px rgba(0, 0, 0, 0.29);
   word-wrap: break-word;
 }
 
@@ -72,7 +72,8 @@ body {
 }
 
 .ChampionInfo img {
-  width: 100%;
+  position: relative;
+  width: 70%;
 }
 
 .ChampionSkills {
@@ -82,12 +83,20 @@ body {
 
 .championImage {
   display: flex;
+  align-items: center;
   flex-direction: row;
-  width: 30%;
+  width: 60%;
 }
 
 .championImage button {
   cursor: pointer;
+  padding: 8px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  margin: 10px;
+  border: none;
 }
 
 .ChampionSkillsP,
@@ -100,5 +109,7 @@ body {
 
 .ChampionSkills img {
   width: 100%;
+  padding: -1px;
+  transition: all ease 0.2s;
   border-radius: 7px;
 }
