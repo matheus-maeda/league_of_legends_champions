@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins";
+  border: 0.5px solid black;
 }
 
 html,
@@ -30,7 +31,7 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 10%;
+  width: 13%;
   height: 5%;
   gap: 0.2rem;
   color: #808080;
@@ -71,12 +72,22 @@ body {
 }
 
 .ChampionInfo img {
-  width: 30%;
+  width: 100%;
 }
 
 .ChampionSkills {
   display: flex;
   gap: 0.4rem;
+}
+
+.championImage {
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+}
+
+.championImage button {
+  cursor: pointer;
 }
 
 .ChampionSkillsP,
