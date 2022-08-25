@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/league_of_legends_champions/static/css/main.d57744b1.css",
+    "main.js": "/league_of_legends_champions/static/js/main.086f0fbd.js",
+    "static/js/496.3ffd2e53.chunk.js": "/league_of_legends_champions/static/js/496.3ffd2e53.chunk.js",
+    "index.html": "/league_of_legends_champions/index.html",
+    "main.d57744b1.css.map": "/league_of_legends_champions/static/css/main.d57744b1.css.map",
+    "main.086f0fbd.js.map": "/league_of_legends_champions/static/js/main.086f0fbd.js.map",
+    "496.3ffd2e53.chunk.js.map": "/league_of_legends_champions/static/js/496.3ffd2e53.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d57744b1.css",
+    "static/js/main.086f0fbd.js"
+  ]
+}
