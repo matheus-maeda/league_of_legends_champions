@@ -8,7 +8,7 @@ export default () => {
   useEffect(() => {
     let champions = [];
     fetch(
-      "http://ddragon.leagueoflegends.com/cdn/13.10.1/data/pt_BR/champion.json"
+      "https://ddragon.leagueoflegends.com/cdn/13.10.1/data/pt_BR/champion.json"
     )
       .then((response) => response.json())
       .then(function (response) {

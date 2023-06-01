@@ -10,7 +10,7 @@ export default ({ champions }) => {
   let [skillName, setSkillName] = useState("");
   let [activeSkill, setActiveSkill] = useState();
 
-  var actualAPI = "http://ddragon.leagueoflegends.com/cdn/13.10.1";
+  var actualAPI = "https://ddragon.leagueoflegends.com/cdn/13.10.1";
 
   function fetchChampion(championName) {
     let championIndex = -1;
@@ -100,7 +100,7 @@ export default ({ champions }) => {
           <div className="championImage">
             <button onClick={() => changeSkin(0)}>{"<"}</button>
             <img
-              src={`http://ddragon.leagueoflegends.com/cdn/img/champion/loading/${searchedChampionName}_${skins[contadorSkin]}.jpg`}
+              src={`https://ddragon.leagueoflegends.com/cdn/img/champion/loading/${searchedChampionName}_${skins[contadorSkin]}.jpg`}
             />
             <button onClick={() => changeSkin("1")}>{">"}</button>
           </div>
