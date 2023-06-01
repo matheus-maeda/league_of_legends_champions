@@ -1,0 +1,16 @@
+.lol {
+  color: #e1a747;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  text-justify: justify;
+  text-justify: inter-word;
+}
+.db {
+  color: #c93828;
+}
