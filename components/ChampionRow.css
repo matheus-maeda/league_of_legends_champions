@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+img {
+  box-shadow: 5px 5px 11px 2px rgba(0, 0, 0, 0.29);
+}
+
+.Container {
+  display: flex;
+  height: 100%;
+}
+
+.ChampionRow {
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 50%;
+}
+
+.champion {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 13%;
+  height: 5%;
+  gap: 0.2rem;
+  color: #808080;
+}
+
+.champion img {
+  width: 80%;
+  transition: all ease 0.2s;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.champion img:hover {
+  transform: scale(1.05);
+}
+
+.ChampionInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  gap: 1rem;
+  height: 60.51rem;
+}
+
+.ChampionInfo p {
+  box-shadow: 5px 5px 11px -2px rgba(0, 0, 0, 0.29);
+  word-wrap: break-word;
+}
+
+.SkillInformation {
+  width: 50%;
+  height: 150px;
+}
+
+.ChampionInfo img {
+  position: relative;
+  width: 70%;
+}
+
+.ChampionSkills {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.championImage {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width: 60%;
+}
+
+.championImage button {
+  cursor: pointer;
+  padding: 8px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  margin: 10px;
+  border: none;
+}
+
+.ChampionSkillsP,
+.ChampionSkillsQ,
+.ChampionSkillsW,
+.ChampionSkillsE,
+.ChampionSkillsR {
+  cursor: pointer;
+}
+
+.ChampionSkills img {
+  width: 100%;
+  padding: -1px;
+  transition: all ease 0.2s;
+  border-radius: 7px;
+}
