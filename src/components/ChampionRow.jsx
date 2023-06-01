@@ -36,6 +36,8 @@ export default ({ champions }) => {
       )
       .then(() => {
         setSearchedChampionName(championName);
+        setSkillInformation("");
+        setSkillName("");
       });
   }
 

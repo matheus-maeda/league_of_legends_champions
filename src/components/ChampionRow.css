@@ -48,6 +48,7 @@ img {
 }
 
 .champion img:hover {
+  transition: all ease 0.2s;
   transform: scale(1.05);
 }
 
@@ -71,6 +72,10 @@ img {
   height: 150px;
 }
 
+.SkillInformation div {
+  height: 20rem;
+}
+
 .ChampionInfo img {
   position: relative;
   width: 70%;
@@ -82,6 +87,7 @@ img {
 }
 
 .championImage {
+  margin-top: 6rem;
   display: flex;
   align-items: center;
   flex-direction: row;
